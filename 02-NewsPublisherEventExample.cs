@@ -61,7 +61,7 @@ public class NewsArtcle
 
     public class program
     {
-        static void Main()
+        static void main()
         {
             //Console.WriteLine("Hello");
             NewsPublisher Publisher = new NewsPublisher();
