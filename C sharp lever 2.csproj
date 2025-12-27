@@ -52,6 +52,7 @@
     <Compile Include="03-Order Services Event Example.cs" />
     <Compile Include="04-DelegateLogerExample.cs" />
     <Compile Include="05-MulticastDelegate.cs" />
+    <Compile Include="06-Func Delegate and Delegate Type function.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
