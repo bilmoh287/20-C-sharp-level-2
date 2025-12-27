@@ -8,8 +8,6 @@ namespace Temprature_Change_Event_Example
 {
     public class _02_NewsPublisherEventExample
     {
-        using System;
-using System.Runtime.InteropServices;
 
 public class NewsArtcle
     {
