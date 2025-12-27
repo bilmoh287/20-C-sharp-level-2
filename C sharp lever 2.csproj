@@ -51,6 +51,7 @@
     <Compile Include="02-NewsPublisherEventExample.cs" />
     <Compile Include="03-Order Services Event Example.cs" />
     <Compile Include="04-DelegateLogerExample.cs" />
+    <Compile Include="05-MulticastDelegate.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
