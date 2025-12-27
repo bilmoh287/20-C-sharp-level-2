@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="01-TempratureChangeEvnevtExample.cs" />
+    <Compile Include="02-NewsPublisherEventExample.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
