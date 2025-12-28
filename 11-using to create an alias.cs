@@ -13,7 +13,7 @@ namespace C_sharp_lever_2
     class Program
     {
 
-        static void Main()
+        static void main()
         {
             koko.WriteLine("Hello World!");
             koko.ReadLine();
