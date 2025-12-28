@@ -56,6 +56,7 @@
     <Compile Include="07-ActionDelegate.cs" />
     <Compile Include="08-Predicate delegate function.cs" />
     <Compile Include="09-LambdaExpression.cs" />
+    <Compile Include="10-LamdaExpressionwithDelegate.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
