@@ -10,7 +10,7 @@ namespace C_sharp_lever_2
     {
         class Program
         {
-            static void ain()
+            static void main()
             {
                 // Declare and initialize Action delegates with regular methods
 
