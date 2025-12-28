@@ -54,6 +54,7 @@
     <Compile Include="05-MulticastDelegate.cs" />
     <Compile Include="06-Func Delegate and Delegate Type function.cs" />
     <Compile Include="07-ActionDelegate.cs" />
+    <Compile Include="08-Predicate delegate function.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
