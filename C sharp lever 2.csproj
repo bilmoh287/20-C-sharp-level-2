@@ -68,6 +68,7 @@
     <Compile Include="18-JsonSerialization.cs" />
     <Compile Include="19-BinarySerialization.cs" />
     <Compile Include="20-CondittionalAttribue.cs" />
+    <Compile Include="21-ObsoluteAtribute.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
