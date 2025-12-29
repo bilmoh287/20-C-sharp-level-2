@@ -63,6 +63,7 @@
     <Compile Include="14-NullablbleDataType.cs" />
     <Compile Include="15-NullableDataTypeExamplecs.cs" />
     <Compile Include="16_NullableExampleWithLambdaExpression.cs" />
+    <Compile Include="17-XmlSerialization.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
