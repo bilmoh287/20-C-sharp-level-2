@@ -66,6 +66,7 @@
     <Compile Include="16_NullableExampleWithLambdaExpression.cs" />
     <Compile Include="17-XmlSerialization.cs" />
     <Compile Include="18-JsonSerialization.cs" />
+    <Compile Include="19BinarySerialization.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
