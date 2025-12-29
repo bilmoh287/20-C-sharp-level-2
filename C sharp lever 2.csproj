@@ -70,6 +70,7 @@
     <Compile Include="20-CondittionalAttribue.cs" />
     <Compile Include="21-ObsoluteAtribute.cs" />
     <Compile Include="22-TypeClass.cs" />
+    <Compile Include="23-ReflectionStringExample.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
