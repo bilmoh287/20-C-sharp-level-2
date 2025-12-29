@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,6 +65,7 @@
     <Compile Include="15-NullableDataTypeExamplecs.cs" />
     <Compile Include="16_NullableExampleWithLambdaExpression.cs" />
     <Compile Include="17-XmlSerialization.cs" />
+    <Compile Include="18-JsonSerialization.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
