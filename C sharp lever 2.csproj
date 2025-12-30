@@ -72,6 +72,7 @@
     <Compile Include="22-TypeClass.cs" />
     <Compile Include="23-ReflectionStringExample.cs" />
     <Compile Include="24-ReflectionCreateObjectAndInvokeMethod.cs" />
+    <Compile Include="25-ReflectionWIthCustomAttributes.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
