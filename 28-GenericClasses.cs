@@ -26,7 +26,7 @@ namespace C_sharp_lever_2
 
         class Program
         {
-            static void Main()
+            static void main()
             {
                 // Usage:
                 GenericBox<int> intBox = new GenericBox<int>(42);

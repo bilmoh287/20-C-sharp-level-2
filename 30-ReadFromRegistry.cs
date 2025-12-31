@@ -7,25 +7,30 @@ using Microsoft.Win32;
 
 namespace C_sharp_lever_2
 {
-    internal class _29_WrittingToRegisrty
+    public class _30_ReadFromRegistry
     {
         class Program
         {
-            static void main()
+            static void Main()
             {
                 // Specify the Registry key and path
                 string keyPath = @"HKEY_CURRENT_USER\SOFTWARE\YourSoftware";
                 string valueName = "YourValueName";
-                string valueData = "YourValueData";
-
 
                 try
                 {
-                    // Write the value to the Registry
-                    Registry.SetValue(keyPath, valueName, valueData, RegistryValueKind.String);
+                    // Read the value from the Registry
+                    string value = Registry.GetValue(keyPath, valueName, null) as string;
 
 
-                    Console.WriteLine($"Value {valueName} successfully written to the Registry.");
+                    if (value != null)
+                    {
+                        Console.WriteLine($"The value of {valueName} is: {value}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Value {valueName} not found in the Registry.");
+                    }
                 }
                 catch (Exception ex)
                 {
