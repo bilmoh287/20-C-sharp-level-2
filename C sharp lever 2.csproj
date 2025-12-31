@@ -75,6 +75,7 @@
     <Compile Include="25-ReflectionWIthCustomAttributes.cs" />
     <Compile Include="26-CustomAttributeForValidation.cs" />
     <Compile Include="27-SpecialCommentsInC#.cs" />
+    <Compile Include="28-GenericClasses.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
