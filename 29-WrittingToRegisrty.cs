@@ -11,7 +11,7 @@ namespace C_sharp_lever_2
     {
         class Program
         {
-            static void main()
+            static void Main()
             {
                 // Specify the Registry key and path
                 string keyPath = @"HKEY_CURRENT_USER\SOFTWARE\YourSoftware";
