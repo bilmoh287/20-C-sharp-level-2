@@ -79,6 +79,7 @@
     <Compile Include="29-WrittingToRegisrty.cs" />
     <Compile Include="30-ReadFromRegistry.cs" />
     <Compile Include="31-DeleteFromRegistry.cs" />
+    <Compile Include="32-WrittingToEventLog.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
