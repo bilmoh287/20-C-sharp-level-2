@@ -81,6 +81,7 @@
     <Compile Include="31-DeleteFromRegistry.cs" />
     <Compile Include="32-WrittingToEventLog.cs" />
     <Compile Include="33-StringBuilderVsString.cs" />
+    <Compile Include="34-HashingExample.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
