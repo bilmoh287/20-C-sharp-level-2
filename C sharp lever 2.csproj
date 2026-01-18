@@ -91,6 +91,7 @@
     <Compile Include="40-MultiThreadExample.cs" />
     <Compile Include="41-Synchronization.cs" />
     <Compile Include="42-AynchronousTaskClass.cs" />
+    <Compile Include="43-AynchronouesExample2.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
