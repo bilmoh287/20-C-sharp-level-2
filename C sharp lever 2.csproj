@@ -85,6 +85,7 @@
     <Compile Include="35-SymetricEncryption.cs" />
     <Compile Include="36-AysmmetricEncrytion.cs" />
     <Compile Include="36-Encrypt and Decrypt Image Example.cs" />
+    <Compile Include="37- Operator Overloading Example.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
