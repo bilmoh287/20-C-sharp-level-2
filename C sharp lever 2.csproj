@@ -92,6 +92,7 @@
     <Compile Include="41-Synchronization.cs" />
     <Compile Include="42-AynchronousTaskClass.cs" />
     <Compile Include="43-AynchronouesExample2.cs" />
+    <Compile Include="44-Task Class With Call back Event Example.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>

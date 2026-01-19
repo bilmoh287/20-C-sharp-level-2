@@ -10,9 +10,10 @@ namespace C_sharp_lever_2
     {
         public class OrderEventArgs : EventArgs
         {
-            public int OrderID;
-            public int OrderPrice;
-            public string ClientEmial;
+            public int OrderID { get; }
+            public int OrderPrice { get; }
+            public string ClientEmial { get; }
+
 
             public OrderEventArgs(int OrderID, int OrderPrice, string ClientEmail)
             {
@@ -116,7 +117,7 @@ namespace C_sharp_lever_2
 
         public class Program
         {
-            static void main(string[] args)
+            static void Main(string[] args)
             {
                 Order order = new Order();
                 EmailService emailService = new EmailService();
