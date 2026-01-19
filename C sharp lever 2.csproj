@@ -97,6 +97,7 @@
     <Compile Include="46-Task.Run-Example.cs" />
     <Compile Include="47-Task Factory Class.cs" />
     <Compile Include="48-Parallel.For.cs" />
+    <Compile Include="49-Paraller.ForEach.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
