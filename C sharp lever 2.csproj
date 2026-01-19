@@ -95,6 +95,7 @@
     <Compile Include="44-Task Class With Call back Event Example.cs" />
     <Compile Include="45-Task Class With Call back Event Example2.cs" />
     <Compile Include="46-Task.Run-Example.cs" />
+    <Compile Include="47-Task Factory Class.cs" />
     <Compile Include="ctlCimpleCals.cs">
       <SubType>UserControl</SubType>
     </Compile>
