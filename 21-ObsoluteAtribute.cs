@@ -19,7 +19,7 @@ public class MyClass2
 
 class Program3
 {
-    static void Main()
+    static void main()
     {
         MyClass2 myObject = new MyClass2();
 

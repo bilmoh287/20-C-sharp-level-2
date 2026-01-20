@@ -68,7 +68,7 @@ namespace Temprature_Change_Event_Example
 
         public class program
         {
-            static void Main()
+            static void main()
             {
                 //Console.WriteLine("Hello");
                 Thermostat thermostat = new Thermostat();

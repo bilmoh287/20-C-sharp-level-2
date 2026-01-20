@@ -9,7 +9,7 @@ namespace C_sharp_lever_2
 {
     public class _23_ReflectionStringExample
     {
-        static void Main()
+        static void main()
         {
             // Get the assembly containing the System.String type
             Assembly mscorlib = typeof(string).Assembly;
