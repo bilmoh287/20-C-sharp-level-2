@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C sharp lever 2", "C sharp 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temprature Change Event Example", "..\Temprature Change Event Example\Temprature Change Event Example.csproj", "{E3961DD8-4055-4F55-8BBB-5BBD971958DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects on UserControl", "Projects on UserControl\Projects on UserControl.csproj", "{0E6032DD-1960-4D35-8879-B0C3E4EE6231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E3961DD8-4055-4F55-8BBB-5BBD971958DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3961DD8-4055-4F55-8BBB-5BBD971958DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3961DD8-4055-4F55-8BBB-5BBD971958DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6032DD-1960-4D35-8879-B0C3E4EE6231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6032DD-1960-4D35-8879-B0C3E4EE6231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6032DD-1960-4D35-8879-B0C3E4EE6231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6032DD-1960-4D35-8879-B0C3E4EE6231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
