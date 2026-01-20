@@ -28,20 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pbTrafficLights = new System.Windows.Forms.PictureBox();
+            this.components = new System.ComponentModel.Container();
             this.lblCountDown = new System.Windows.Forms.Label();
+            this.pbTrafficLights = new System.Windows.Forms.PictureBox();
+            this.LightTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbTrafficLights)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pbTrafficLights
-            // 
-            this.pbTrafficLights.Image = global::Projects_on_UserControl.Properties.Resources.Red;
-            this.pbTrafficLights.Location = new System.Drawing.Point(3, 3);
-            this.pbTrafficLights.Name = "pbTrafficLights";
-            this.pbTrafficLights.Size = new System.Drawing.Size(87, 156);
-            this.pbTrafficLights.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbTrafficLights.TabIndex = 0;
-            this.pbTrafficLights.TabStop = false;
             // 
             // lblCountDown
             // 
@@ -53,6 +45,21 @@
             this.lblCountDown.Size = new System.Drawing.Size(36, 25);
             this.lblCountDown.TabIndex = 1;
             this.lblCountDown.Text = "??";
+            // 
+            // pbTrafficLights
+            // 
+            this.pbTrafficLights.Image = global::Projects_on_UserControl.Properties.Resources.Red;
+            this.pbTrafficLights.Location = new System.Drawing.Point(3, 3);
+            this.pbTrafficLights.Name = "pbTrafficLights";
+            this.pbTrafficLights.Size = new System.Drawing.Size(87, 156);
+            this.pbTrafficLights.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbTrafficLights.TabIndex = 0;
+            this.pbTrafficLights.TabStop = false;
+            // 
+            // LightTimer
+            // 
+            this.LightTimer.Interval = 500;
+            this.LightTimer.Tick += new System.EventHandler(this.LightTimer_Tick);
             // 
             // ctlTrafficLight
             // 
@@ -72,5 +79,6 @@
 
         private System.Windows.Forms.PictureBox pbTrafficLights;
         private System.Windows.Forms.Label lblCountDown;
+        private System.Windows.Forms.Timer LightTimer;
     }
 }

@@ -16,5 +16,10 @@ namespace Projects_on_UserControl
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ctlTrafficLight1.Start();
+        }
     }
 }

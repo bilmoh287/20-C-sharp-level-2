@@ -1,6 +1,6 @@
 ﻿namespace Projects_on_UserControl
 {
-    partial class Form1
+    partial class frmTrafficLightProject
     {
         /// <summary>
         /// Required designer variable.
@@ -35,22 +35,22 @@
             // 
             this.ctlTrafficLight1.CurrentLight = Projects_on_UserControl.ctlTrafficLight.enLightType.Red;
             this.ctlTrafficLight1.GreemTime = 10;
-            this.ctlTrafficLight1.Location = new System.Drawing.Point(135, 195);
+            this.ctlTrafficLight1.Location = new System.Drawing.Point(130, 110);
             this.ctlTrafficLight1.Name = "ctlTrafficLight1";
             this.ctlTrafficLight1.OrangeTime = 3;
             this.ctlTrafficLight1.RedTime = 10;
             this.ctlTrafficLight1.Size = new System.Drawing.Size(95, 209);
             this.ctlTrafficLight1.TabIndex = 0;
+            this.ctlTrafficLight1.LightChanged += new System.EventHandler<Projects_on_UserControl.ctlTrafficLight.TrafficLightEventArgs>(this.ctlTrafficLight1_LightChanged);
             // 
-            // Form1
+            // frmTrafficLightProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ctlTrafficLight1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "frmTrafficLightProject";
+            this.Text = "frmTrafficLightProject";
             this.ResumeLayout(false);
 
         }
@@ -60,4 +60,3 @@
         private ctlTrafficLight ctlTrafficLight1;
     }
 }
-
