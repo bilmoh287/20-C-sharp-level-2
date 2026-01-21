@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using C_sharp_lever_2.Properties;
 using Projects_on_UserControl.Properties;
 
 namespace Projects_on_UserControl
